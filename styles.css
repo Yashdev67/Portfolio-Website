@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background: #f7f9fb;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+    color: #fff;
+    padding: 40px 0 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffd86b;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #4e54c8;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.skills-list, .education-list, .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li, .education-list li, .contact-list li {
+    background: #fff;
+    margin-bottom: 12px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(78,84,200,0.07);
+    font-size: 1.08rem;
+}
+
+.project {
+    background: #fff;
+    padding: 20px 18px 18px 18px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(78,84,200,0.07);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #4e54c8;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+footer {
+    background: #4e54c8;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .section {
+        padding: 30px 0;
+    }
+    .container {
+        padding: 0 8px;
+    }
+    nav a {
+        margin: 0 7px;
+        font-size: 0.95rem;
+    }
+} 
